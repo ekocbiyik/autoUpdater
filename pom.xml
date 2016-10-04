@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ekocbiyik.updaterExample</groupId>
-    <artifactId>auto-updater</artifactId>
+    <groupId>net.egemsoft.matp</groupId>
+    <artifactId>kiosk-updater</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
     <packaging>jar</packaging>
-    <name>auto-updater-app</name>
-    <description>Auto Updater For My App</description>
+    <name>kiosk-auto-updater</name>
+    <description>Auto Updater For Kiosk</description>
 
 
     <properties>
@@ -82,7 +82,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <finalName>updater-executable-jar-file-for-exe</finalName>
+                    <finalName>kiosk-updater-executable-jar-file-for-exe</finalName>
                 </configuration>
             </plugin>
 
